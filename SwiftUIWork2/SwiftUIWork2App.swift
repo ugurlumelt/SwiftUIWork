@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIWork2App: App {
     var body: some Scene {
         WindowGroup {
-            NavigationStackView()
+            TabViewView()
         }
     }
 }

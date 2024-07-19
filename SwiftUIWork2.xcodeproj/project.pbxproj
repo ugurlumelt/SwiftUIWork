@@ -16,6 +16,7 @@
 		540189312C4A8EF400C8A036 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540189302C4A8EF400C8A036 /* ResultView.swift */; };
 		54FEEF752C4AA21700F90047 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FEEF742C4AA21700F90047 /* Person.swift */; };
 		54FEEF772C4AA4F600F90047 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FEEF762C4AA4F600F90047 /* NavigationStackView.swift */; };
+		54FEEF792C4AA79900F90047 /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FEEF782C4AA79900F90047 /* TabViewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		540189302C4A8EF400C8A036 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		54FEEF742C4AA21700F90047 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		54FEEF762C4AA4F600F90047 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		54FEEF782C4AA79900F90047 /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				5401892E2C4A8E8B00C8A036 /* GameView.swift */,
 				540189302C4A8EF400C8A036 /* ResultView.swift */,
 				54FEEF762C4AA4F600F90047 /* NavigationStackView.swift */,
+				54FEEF782C4AA79900F90047 /* TabViewView.swift */,
 				54FEEF742C4AA21700F90047 /* Person.swift */,
 				540189222C4A8CAA00C8A036 /* Assets.xcassets */,
 				540189242C4A8CAA00C8A036 /* Preview Content */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FEEF752C4AA21700F90047 /* Person.swift in Sources */,
+				54FEEF792C4AA79900F90047 /* TabViewView.swift in Sources */,
 				540189212C4A8CA900C8A036 /* ContentView.swift in Sources */,
 				5401892D2C4A8E4500C8A036 /* MainView.swift in Sources */,
 				540189312C4A8EF400C8A036 /* ResultView.swift in Sources */,
