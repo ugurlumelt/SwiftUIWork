@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    @State private var switchToGameView = false
+    
     var body: some View {
         NavigationStack{
             
             VStack{
                
-                NavigationLink(destination: GameView()) {
-                    Text("Start")
+                Button ("Start"){
+                    switchToGameView = true
                 }
                 
             }.navigationTitle("homepage")
-            
+                .navigationDestination(isPresented: $switchToGameView ){
+                    GameView()
+                }
         }
         
     }
