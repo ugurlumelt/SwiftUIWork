@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ResultView: View {
     var body: some View {
-        VStack {
-            
+        VStack(spacing: 40){
+            Text("Results").font(.system(size: 50))
             Button("End"){
                 
             }

@@ -11,11 +11,13 @@ struct GameView: View {
     
     @Environment (\.presentationMode) var pm
     
+    @State private var swicthToResultView = false
+    
     var body: some View {
         VStack(spacing: 100){
             
             Button("Finish"){
-                
+                swicthToResultView = true
             }
             
             Button("Back"){
@@ -23,6 +25,9 @@ struct GameView: View {
             }
             
         }.navigationTitle("Game Page")
+            .sheet(isPresented: $swicthToResultView) {
+                ResultView()
+            }
     }
 }
 
