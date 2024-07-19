@@ -13,8 +13,12 @@ struct GameView: View {
     
     @State private var swicthToResultView = false
     
+   var p = Person()
+    
     var body: some View {
         VStack(spacing: 100){
+            
+            Text("\(p.name!) - \(p.age!)")
             
             Button("Finish"){
                 swicthToResultView = true

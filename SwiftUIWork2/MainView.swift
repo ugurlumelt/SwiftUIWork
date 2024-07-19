@@ -22,7 +22,8 @@ struct MainView: View {
                 
             }.navigationTitle("homepage")
                 .navigationDestination(isPresented: $switchToGameView ){
-                    GameView()
+                    let p = Person(name: "test1", age: 20)
+                    GameView(p:p)
                 }
         }
         
